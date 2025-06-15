@@ -1,6 +1,6 @@
 <?php
 
-$maconnexion = new PDO('mysql:host=localhost;dbname=mmi19x04;charset=utf8', 'mmi19x04', 'mdp');
+$maconnexion = new PDO('mysql:host=localhost;dbname=mmi19x04;charset=utf8', 'user', 'mdp');
 $pseudo= $_GET['pseudo'];
 $message= $_GET['message'];
 

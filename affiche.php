@@ -1,6 +1,6 @@
 <?php
 
-    $bdd = new PDO('mysql:host=localhost;dbname=mmi19x04;charset=utf8', 'mmi19x04', 'mdp');
+    $bdd = new PDO('mysql:host=localhost;dbname=mmi19x04;charset=utf8', 'user', 'mdp');
 
     $requete="SELECT * FROM chat ORDER BY id LIMIT 10";
 
