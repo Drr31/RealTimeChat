@@ -40,7 +40,7 @@ CREATE TABLE chat (
   message TEXT NOT NULL,
   date_envoi DATETIME DEFAULT CURRENT_TIMESTAMP
 );
-
+```
 
 ⚙️ Lancement local
 Importer le fichier chat.sql dans votre base de données
