@@ -46,8 +46,9 @@ CREATE TABLE chat (
 Importer le fichier chat.sql dans votre base de données
 
 Modifier les identifiants de connexion dans dire.php et envoyer.php si nécessaire :
-
+```
 $bdd = new PDO('mysql:host=localhost;dbname=nom_de_la_bdd;charset=utf8', 'utilisateur', 'motdepasse');
+```
 Placer les fichiers dans un dossier accessible par un serveur local (Apache, XAMPP, MAMP, etc.)
 
 ✍️ Auteur
